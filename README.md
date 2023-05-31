@@ -31,6 +31,14 @@ YOLOv8 is the lastest version of You Only Look Once (YOLO). You can see the arch
 
 <img src="https://user-images.githubusercontent.com/27466624/239739723-57391d0f-1848-4388-9f30-88c2fb79233f.jpg">
 
+## Annotation format
+
+Note that the KITTI annotation format is different from the YOLOv8 format. We had to convert the annotations to YOLOv8 format. The converter code is yolo_converter.py under tools.
+
+## Roboflow
+
+Since the Test set of KITTI does not include labels, we used Roboflow (A website that allows you to manipulate your data) to split our training data into Train/Valid/Test. We then added different Data Augmentation techniques. Finally, our new dataset is ready to be used.
+
 
 ## Optimization
 
