@@ -33,7 +33,7 @@ YOLOv8 is the lastest version of You Only Look Once (YOLO). You can see the arch
 
 ## Annotation format
 
-Note that the KITTI annotation format is different from the YOLOv8 format. We had to convert the annotations to YOLOv8 format. The converter code is yolo_converter.py under tools.
+Note that the KITTI annotation format is different from the YOLOv8 format. We had to convert the annotations to YOLOv8 format. The converter code is kitti_to_yolo_converter.py under tools.
 
 ## Roboflow
 
@@ -56,4 +56,4 @@ Those our final results after 15 epochs + 15 epochs (done in two time due to lac
 Here two examples of the predictions made by the code:
 <img src="DLAV\test_predict1.png">
 <img src="DLAV\test_predict2.png">
-## Conclusion
+
