@@ -8,6 +8,7 @@ The dataset contains diverse scenarios captured from a moving vehicle, including
 
 In terms of 2D object detection, the KITTI dataset provides detailed annotations for several object categories, which are: cars, pedestrians, cyclists, person_sitting, misc, truck, tram, and van. The annotations include precise bounding box coordinates around the objects of interest, as well as labels indicating the class of each object. 
 The KITTI dataset annotation format for 2D object detection follows a specific structure and is represented in plain text files. Each annotation file corresponds to an image in the dataset and contains information about the objects present in the image. Here is an example of the KITTI annotation format:
+
 "Object Type | Truncated | Occluded | Alpha | Bounding Box (2D) | Dimensions (3D) | Location (3D) | Rotation Yaw | Score"
 
 The dataset also includes various additional information, such as camera calibration parameters, timestamps, and vehicle trajectories, which can be valuable for tasks like camera pose estimation and motion analysis.
