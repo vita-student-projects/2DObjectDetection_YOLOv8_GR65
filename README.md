@@ -1,4 +1,8 @@
 # You Never See The Carriage (YNSTC)
+
+## Introduction
+
+2D object detection is one of the main aspect of autonomous vehicules actually. It 
 ## KITTI dataset
 The KITTI dataset is a widely used benchmark dataset for autonomous driving research, particularly in the area of 2D object detection. It stands for "Karlsruhe Institute of Technology and Toyota Technological Institute" and was created by a collaboration between the two institutions.
 
@@ -23,6 +27,15 @@ Although many Deep Learning models have been used on the KITTI dataset to evalua
 YOLOv8 is the lastest version of You Only Look Once (YOLO). You can see the architecture below:
 
 <img src="https://user-images.githubusercontent.com/27466624/239739723-57391d0f-1848-4388-9f30-88c2fb79233f.jpg">
+
+
 ## Optimization
+
+Making KITTI Dataset on Yolov8 was the first part of the contribution. We needed after to optimize it in order to gain in efficiency and accuracy.
+
+First of all, we increased the image size, in order to get a better resolution, so better results on the detection. It helped the model to train more precisely.
+
+Regarding Data Augmentation, we tested the ones logic with our detection. There were all related to the final perspective of the camera (angle, noise, exposure, shear for perspective, etc...).
+
 ## Final Results
 ## Conclusion
