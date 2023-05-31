@@ -1,6 +1,24 @@
-# 2D_object_detection
+# You Never See The Carriage (YNSTC)
 ## KITTI dataset
+The KITTI dataset is a widely used benchmark dataset for autonomous driving research, particularly in the area of 2D object detection. It stands for "Karlsruhe Institute of Technology and Toyota Technological Institute" and was created by a collaboration between the two institutions.
+![alt text]([http://url/to/img.png](https://www.cvlibs.net/datasets/kitti/results/e110715461db375dfdbf3d2cb8c8daad73ce0022/image_2/0000000000.png))
+The primary focus of the KITTI dataset is to provide a comprehensive collection of real-world data for training and evaluating algorithms related to autonomous driving tasks, including 2D object detection. The dataset was collected using a variety of sensors, including high-resolution color cameras, LIDAR (Light Detection and Ranging) scanners, and GPS/IMU (Global Positioning System/Inertial Measurement Unit) units.
+
+The dataset contains diverse scenarios captured from a moving vehicle, including urban street scenes, highways, and rural areas, covering different weather conditions such as sunny, rainy, and cloudy. It comprises a large number of annotated images and point clouds, making it suitable for various computer vision tasks, including object detection, tracking, and scene understanding.
+
+In terms of 2D object detection, the KITTI dataset provides detailed annotations for several object categories, which are: cars, pedestrians, cyclists, person_sitting, misc, truck, tram, and van. The annotations include precise bounding box coordinates around the objects of interest, as well as labels indicating the class of each object. 
+The KITTI dataset annotation format for 2D object detection follows a specific structure and is represented in plain text files. Each annotation file corresponds to an image in the dataset and contains information about the objects present in the image. Here is an example of the KITTI annotation format:
+"Object Type | Truncated | Occluded | Alpha | Bounding Box (2D) | Dimensions (3D) | Location (3D) | Rotation Yaw | Score"
+
+The dataset also includes various additional information, such as camera calibration parameters, timestamps, and vehicle trajectories, which can be valuable for tasks like camera pose estimation and motion analysis.
+
+KITTI has become a popular benchmark for evaluating the performance of 2D object detection algorithms due to its real-world nature and comprehensive annotations. Researchers and developers often use the dataset to compare the accuracy and efficiency of different detection methods, and it has contributed to significant advancements in the field of autonomous driving.
+
+Moreover, the KITTI dataset has been used as a foundation for developing benchmark metrics and evaluation protocols in the area of 2D object detection. These metrics help quantify the performance of algorithms, allowing for fair comparisons and enabling progress in the field.
+
+In summary, the KITTI dataset is a widely recognized benchmark for 2D object detection in autonomous driving research. It provides a rich collection of real-world images and annotations, allowing researchers to develop and evaluate advanced algorithms for detecting and localizing objects of interest in various driving scenarios.
 ## YOLOv8
+
 ## Optimization
 ## Final Results
 ## Conclusion
