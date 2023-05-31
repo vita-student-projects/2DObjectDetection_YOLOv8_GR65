@@ -20,6 +20,9 @@ Although many Deep Learning models have been used on the KITTI dataset to evalua
 
 ## YOLOv8
 
+YOLOv8 is the lastest version of You Only Look Once (YOLO). You can see the architecture below:
+![alt text](https://user-images.githubusercontent.com/27466624/239739723-57391d0f-1848-4388-9f30-88c2fb79233f.jpg)
+
 ## Optimization
 ## Final Results
 ## Conclusion
