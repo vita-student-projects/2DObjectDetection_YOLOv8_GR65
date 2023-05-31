@@ -50,5 +50,10 @@ Regarding Data Augmentation, we tested the ones logic with our detection. There 
 
 ## Final Results
 
+Those our final results after 15 epochs + 15 epochs (done in two time due to lack of GPU):
 <img src="DLAV\augmented_results.png">
+
+Here two examples of the predictions made by the code:
+<img src="DLAV\test_predict1.png">
+<img src="DLAV\test_predict2.png">
 ## Conclusion
