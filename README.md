@@ -2,7 +2,10 @@
 
 ## Introduction
 
-2D object detection is one of the main aspect of autonomous vehicules actually. It 
+2D object detection is of paramount importance in autonomous vehicles as it enables them to perceive and interpret their surroundings. By accurately identifying and localizing objects such as vehicles, pedestrians, traffic signs, and obstacles, the vehicle can navigate safely and make informed decisions. This information helps in obstacle detection, lane tracking, traffic sign recognition, and predicting the movements of other road users. With reliable 2D object detection, autonomous vehicles can enhance their situational awareness, avoid collisions, and operate efficiently in complex traffic scenarios.
+
+Moreover, 2D object detection plays a crucial role in ensuring the safety of vulnerable road users, such as pedestrians and cyclists. By accurately detecting and tracking their movements, autonomous vehicles can actively avoid accidents and adapt their behavior accordingly. This capability enhances the overall safety of autonomous vehicles and improves their interaction with human users and the surrounding environment. Ultimately, 2D object detection empowers autonomous vehicles to understand their environment, make critical decisions, and navigate the roads with increased safety and efficiency.
+
 ## KITTI dataset
 The KITTI dataset is a widely used benchmark dataset for autonomous driving research, particularly in the area of 2D object detection. It stands for "Karlsruhe Institute of Technology and Toyota Technological Institute" and was created by a collaboration between the two institutions.
 
