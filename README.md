@@ -41,4 +41,6 @@ First of all, we increased the image size, in order to get a better resolution, 
 Regarding Data Augmentation, we tested the ones logic with our detection. There were all related to the final perspective of the camera (angle, noise, exposure, shear for perspective, etc...).
 
 ## Final Results
+
+<img src="https://drive.google.com/file/d/1b8OXMpp6nr2yVWFWOYoBdIyi4QC_mp4e/view?usp=share_link">
 ## Conclusion
