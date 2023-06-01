@@ -57,7 +57,8 @@ Here two examples of the predictions made by the code:
 <img src="DLAV\test_predict1.png">
 <img src="DLAV\test_predict2.png">
 
-To have a better visualization of the Data Augmentation performance, here is the result of the performance on some test videos. The model with data augmentation proved its efficiency.
-<img align="left" width="100" height="100" src="DLAV\test_predict2.png"><img align="right" width="100" height="100" src="DLAV\test_predict2.png">
+To have a better visualization of the Data Augmentation performance, here is the result of the performance on some test videos. The model with data augmentation (Right) proved its efficiency compared to the original model (Left).
+
+<img align="left" width="400" height="100" src="00_27.png"><img align="right" width="400" height="100" src="00_27_data_augmented.png">
 
 
